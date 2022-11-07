@@ -1,5 +1,5 @@
 body {
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   margin: 0;
   min-height: 100vh;
   display: flex;
@@ -13,17 +13,24 @@ a:focus {
   text-decoration: none; color: #F9FAF8;
 }
 
+img {
+  max-width: 700px;
+  min-height: 300px
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   padding-left: 150px;
   align-items: center;
-  font-size: 24px;
   background-color: #1F2937;
   color: #F9FAF8;
-  border: 5px solid lightcoral;
-  font-weight: 1000px;
   height: 50px;
+}
+
+.header-logo {
+  font-weight: bolder;
+  font-size: 24px;
 }
 
 .header-links {
@@ -37,8 +44,40 @@ a:focus {
 
 .hero-container {
   display: flex;
+  background-color: #1F2937;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  border: 5px solid lightcoral;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 500px;
 }
 
 .hero-main-text {
-  font-weight: 1000px;
+  font-weight: bolder;
+  color: #F9FAF8;
+  font-size: 48px;
+  justify-content: center;
+}
+
+.hero-sub-text {
+  color: #F9FAF8;
+}
+
+.booknow-button {
+  background-color: lightblue;
+  color: #F9FAF8;
+  border-radius: 50cm;
+  padding: 12px;
+}
+
+.hero-image {
+  display: flex;
+  flex-wrap: wrap;
 }
