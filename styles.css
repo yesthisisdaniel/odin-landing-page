@@ -13,15 +13,18 @@ a:focus {
   text-decoration: none; color: #F9FAF8;
 }
 
-img {
-  max-width: 700px;
-  min-height: 300px
+.hero img {
+  max-width: 650px;
+  min-height: 400px;
+  border-radius: 5%;
+  transition: transform .2s;
 }
 
 .header {
   display: flex;
   justify-content: space-between;
-  padding-left: 150px;
+  padding-left: 185px;
+  padding-right: 170px;
   align-items: center;
   background-color: #1F2937;
   color: #F9FAF8;
@@ -45,18 +48,20 @@ img {
 .hero-container {
   display: flex;
   background-color: #1F2937;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 50px;
+  padding-left: 185px;
+  padding-right: 170px;
   flex-wrap: wrap;
 }
 
 .hero-text {
-  border: 5px solid lightcoral;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: flex-start;
   width: 500px;
+  gap: 10px;
 }
 
 .hero-main-text {
