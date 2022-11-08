@@ -29,9 +29,11 @@ a:focus {
   background-color: #1F2937;
   color: #F9FAF8;
   height: 50px;
+  flex: 0 0 auto;
 }
 
 .header-logo {
+  flex: 0 0 auto;
   font-weight: bolder;
   font-size: 24px;
 }
@@ -39,6 +41,7 @@ a:focus {
 .header-links {
   display: flex;
   justify-content: flex-end;
+  flex: 0 0 auto;
   font-size: 18px;
   align-items: center;
   margin-right: 12px;
@@ -77,12 +80,39 @@ a:focus {
 
 .booknow-button {
   background-color: lightblue;
-  color: #F9FAF8;
-  border-radius: 50cm;
+  color: black;
+  border-radius: 25cm;
   padding: 12px;
+  width: 150x;
 }
 
 .hero-image {
   display: flex;
   flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.main-content-text {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  font-weight: bolder;
+  font-size: 36px;
+}
+.main-content-cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  border: 10px solid lightblue;
+  padding: 10px;
+  width: 300px;
+  height: 200px
 }
