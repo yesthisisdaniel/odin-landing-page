@@ -63,6 +63,7 @@ a:focus {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
+  flex-shrink: 0;
   width: 600px;
   gap: 10px;
 }
@@ -91,8 +92,9 @@ a:focus {
 }
 
 .hero-image {
-  margin: 10px;
-  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
 }
 
 main {
