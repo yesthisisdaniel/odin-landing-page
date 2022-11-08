@@ -96,11 +96,18 @@ a:focus {
   flex-wrap: wrap;
 }
 
-.main {
+main {
   display: flex;
   flex-direction: column;
-  margin: 0;
-  padding: 0;
+  background-color: #FFFDD0;
+}
+
+.card-titles {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  text-decoration: underline;
+  justify-content: space-around;
 }
 
 .main-content-text {
@@ -116,10 +123,16 @@ a:focus {
   justify-content: space-around;
 }
 
+.card-content {
+  text-align: center;
+  font-family: "Railway";
+}
+
 .card {
   border: 10px solid lightblue;
   width: 300px;
   height: 200px;
+  color:
 }
 
 .card img {
