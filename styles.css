@@ -57,7 +57,6 @@ a:focus {
   padding: 50px;
   padding-left: 185px;
   padding-right: 170px;
-  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -92,8 +91,8 @@ a:focus {
 }
 
 .hero-image {
-  display: flex;
-  flex-wrap: wrap;
+  margin: 10px;
+  padding: 0;
 }
 
 main {
