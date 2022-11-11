@@ -188,7 +188,7 @@ main {
 .action-box {
   display: flex;
   flex: 1 0 auto;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   width: 1500px;
   height: 200px;
@@ -215,8 +215,17 @@ main {
   font-weight: bold;
 }
 
+.action-button-1 {
+  display: flex;
+  padding-right: 300px;
+}
+
 .action-button {
-  align-self: flex-end;
+  background-color: goldenrod;
+  color: black;
+  border-radius: 25cm;
+  padding: 12px;
+  width: 150x;
 }
 
 .footer {
